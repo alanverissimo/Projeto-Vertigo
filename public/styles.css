@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.topo {
+    background-image: url(../img/background.png);
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1230px;
+    margin-top: 25px;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.navegacao {
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes {
+Font-weight: 600;
+Font-size: 16px;
+Line-height: 160%;
+Vertical-align: Center;
+text-decoration: none;
+color: #424551;
+    
+}
+.botaoMenu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 386px;
+    align-items: center;
+}
+.botaoGet {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #FF3F3A;
+    background: linear-gradient(to right, #FF3F3A, #F75E05);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.botaoLogin {
+    text-decoration: none;
+    color: black;
+}
+.meioTopo {
+    width: 100%;
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tituloTopo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.play {
+    width: 100%;
+    max-width: 184px;
+    margin-bottom: 20px;
+}
+.titulo {
+    width: 100%;
+    max-width: 530px;
+    font-size: 65px;
+}
+.botoesMeiotopo {
+    margin-top: 40px;
+}
+.aboutUs {
+    text-decoration: none;
+    border: 1px solid #FF3F3A;
+    width: 100%;
+    color: #FF3F3A;
+    max-width: 165px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: bold;
+}
+.explore {
+    text-decoration: none;
+    border: 1px solid #FF3F3A;
+    background: linear-gradient(to right, #FF3F3A, #F75E05);
+    width: 100%;
+    max-width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.fimTopo {
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1230px;
+    justify-content: space-between;
+}
+.pontos {
+    display: flex;
+    align-items: center;
+}
+.num {
+    font-size: 45px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.dot {
+    border: 5px solid #FF3F3A;
+    border-radius: 50px;
+    height: 10px;
+    margin: 20px;
+}
