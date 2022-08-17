@@ -5,6 +5,7 @@
     font-family: sans-serif;
 
 }
+
 .topo {
     background-image: url(../img/background.png);
     height: 1080px;
@@ -29,6 +30,7 @@
     color: black;
     font-size: 25px;
 }
+
 .navegacao {
     width: 100%;
     max-width: 430px;
@@ -37,14 +39,13 @@
 }
 
 .botoes {
-Font-weight: 600;
-Font-size: 16px;
-Line-height: 160%;
-Vertical-align: Center;
-text-decoration: none;
-color: #424551;
-    
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #424551;
+
 }
+
 .botaoMenu {
     display: flex;
     justify-content: space-evenly;
@@ -52,6 +53,7 @@ color: #424551;
     max-width: 386px;
     align-items: center;
 }
+
 .botaoGet {
     text-decoration: none;
     color: white;
@@ -66,6 +68,7 @@ color: #424551;
     text-decoration: none;
     color: black;
 }
+
 .meioTopo {
     width: 100%;
     max-width: 1230px;
@@ -73,25 +76,32 @@ color: #424551;
     justify-content: space-between;
     align-items: center;
 }
+
 .tituloTopo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
 }
+
 .play {
     width: 100%;
     max-width: 184px;
     margin-bottom: 20px;
 }
+
 .titulo {
     width: 100%;
     max-width: 530px;
     font-size: 65px;
 }
+
 .botoesMeiotopo {
     margin-top: 40px;
+    padding: 10px;
+
 }
+
 .aboutUs {
     text-decoration: none;
     border: 1px solid #FF3F3A;
@@ -102,7 +112,9 @@ color: #424551;
     border-radius: 5px;
     padding: 12px;
     font-weight: bold;
+    margin-right: 10px;
 }
+
 .explore {
     text-decoration: none;
     border: 1px solid #FF3F3A;
@@ -114,6 +126,7 @@ color: #424551;
     color: white;
     font-weight: bold;
 }
+
 .fimTopo {
     display: flex;
     margin-bottom: 40px;
@@ -121,18 +134,656 @@ color: #424551;
     max-width: 1230px;
     justify-content: space-between;
 }
+
 .pontos {
     display: flex;
     align-items: center;
 }
+
 .num {
     font-size: 45px;
     font-weight: bold;
     margin-right: 10px;
 }
+
 .dot {
     border: 5px solid #FF3F3A;
     border-radius: 50px;
     height: 10px;
     margin: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.containerMeio {
+    display: flex;
+    width: 100%;
+    max-width: 1230px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px
+}
+
+.garotaTelefone {
+    margin-right: 10%;
+}
+
+.woman {
+    width: 100%;
+    max-width: 705px;
+    display: inline-block
+}
+
+.sectionMid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whoweare {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.whycreatex {
+    font-size: 46px;
+
+}
+
+
+.createx {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.criador {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.imgcheck {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.text {
+    width: 100%;
+    max-width: 360px;
+    color: rgb(65, 64, 64);
+}
+
+.moreAboutUs {
+    text-decoration: none;
+    border: 1px solid #FF3F3A;
+    background: linear-gradient(to right, #FF3F3A, #F75E05);
+    width: 100%;
+    max-width: 161px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.conteudo__cards {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.pai-de-todos {
+    width: 100%;
+    max-width: 1230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-feature {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.readytolearn {
+
+    font-weight: 700;
+}
+
+.featuredcourses {
+    font-size: 45px;
+}
+
+.view {
+    text-decoration: none;
+    color: #FF3F3A;
+    border: 1px solid #FF3F3A;
+    padding: 15px 26px;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    max-width: 203px;
+}
+
+.card-principal {
+    width: 100%;
+    max-width: 600px;
+    height: 214px;
+    display: flex;
+    border: 1px solid #e5e8ed;
+    margin: 5px;
+    box-shadow: 10px 10px 10px #d1d1d1;
+}
+
+.cargos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cada-cargo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.setor {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 125px;
+    text-align: center;
+    color: white;
+
+}
+
+.color1 {
+    border: #03cea4;
+    background-color: #03cea4;
+}
+
+.color2 {
+    border: #5a87fc;
+    background-color: #5a87fc;
+}
+
+.color3 {
+    border: #f4982d;
+    background-color: #f4982d;
+}
+
+.color4 {
+    border: #f23370;
+    background-color: #f23370;
+}
+
+.conteudo {
+    font-weight: bold;
+}
+
+.valor {
+    color: #787A80;
+}
+
+.ourbenefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourbenefits {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.thats {
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.meiogeral {
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+    flex-direction: column;
+    max-width: 1230px;
+    margin-top: 200px;
+}
+
+.menu-meio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+}
+
+.exptutor {
+    text-decoration: none;
+    border: 1px solid #FF3F3A;
+    width: 100%;
+    color: #FF3F3A;
+    max-width: 195px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.only {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.texto-meio {
+    display: flex;
+    width: 100%;
+    max-width: 1230px;
+    justify-content: center;
+    align-items: center;
+}
+
+.onlytext {
+    width: 495px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.titulobenefits {
+    margin-bottom: 40px;
+}
+
+
+.fundo-meio {
+
+    background-image: url(../img/fundo-meio.png);
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-centro {
+    width: 100%;
+    max-width: 1230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.eventos {
+    border: 1px solid white;
+    background: white;
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff3f3a;
+}
+
+.date {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mes {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hora {
+    color: #787a80;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text2 {
+    color: #787a80;
+}
+
+.viewMore {
+    text-decoration: none;
+    color: #ff3f3a;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourmid {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.mais {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-around;
+}
+
+.doYouWantMore {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exploreAll {
+    text-decoration: none;
+    border: 1px solid #FF3F3A;
+    background: linear-gradient(to right, #FF3F3A, #F75E05);
+    width: 100%;
+    max-width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.lecturemid {
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.createxcertificate {
+
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+
+.confirmed {
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.weare {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.geral {
+    display: flex;
+}
+
+.delmar {
+    height: 140px;
+    width: 182px;
+    left: -39px;
+    top: -44px;
+    border-radius: 0px;
+
+}
+
+.sentinal {
+    height: 105px;
+    width: 136px;
+    left: -14px;
+    top: -27px;
+    border-radius: 0px;
+
+}
+
+.national {
+    height: 98px;
+    width: 128px;
+    left: -10px;
+    top: -24px;
+    border-radius: 0px;
+
+}
+
+.certificateimg {
+    display: flex;
+}
+
+.besttutores {
+
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.meetour {
+
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.fotosgeral {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.texto-certificado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 615px;
+}
+.container-best.tutores {
+    width: 100%;
+    height: 1570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4f5f6;
+    justify-content: space-around;
+}
+.box-func {
+    margin: 15px;
+    width: 100%;
+    max-width: 285px;
+}
+.func {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 285px;
+}
+.redes-foto {
+    position: relative;
+    bottom: 35px;
+    left: 140px;
+}
+.redes-sociais {
+    margin: 2px;
+}
+.nome_func {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.funcao_func {
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.diana {
+    position: relative;
+    bottom: 25px;
+}
+.testemunho {
+    width: 100%;
+    max-width: 1230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.sub-testemunho {
+    font-size: 46px;
+    margin-top: 10px;
+}
+.todo-twitter {
+    background: white;
+    padding: 75px;
+    margin: 0 55px;
+}
+.twitte {
+    width: 100%;
+    display: flex;
+}
+.aspas {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+.lorem {
+    font-size: 20px;
+    margin: 6px 20px;
+}
+.eleanor {
+    margin: 20px 45px;
+}
+.titulo-testemunho {
+    margin-bottom: 80px;
+}
+.abas {
+    font-size: 60px;
+    color: #cdcdcd;
+}
+.seta{
+    width: 50px;
+    height: 50px;
+}
+.centro-twitter {
+    display: flex;
+    align-items: center;
+}
+.container-blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-ultimoMeio {
+    width: 100%;
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+
+}
+.todaAgenda {
+    display: flex;
+    width: 100%;
+    max-width: 1230px;
+    margin-top: 30px;
 }
